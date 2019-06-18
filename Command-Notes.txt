@@ -21,3 +21,9 @@ kubectl describe replicaset
 kubectl get all
 
 kubectl rollout status "NAME OF THE DEPLOYMENT"
+
+kubectl rollout history "NAME OF THE DEPLOYMENT"
+
+kubectl rollout undo "NAME OF THE DEPLOYMENT"--- to reollout an depployments
+
+kubectl run nginx --image nginx  -- creates a deployment rather than a POD
