@@ -19,3 +19,5 @@ kubectl describe pods
 kubectl describe replicaset
 
 kubectl get all
+
+kubectl rollout status "NAME OF THE DEPLOYMENT"
