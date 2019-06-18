@@ -1,6 +1,6 @@
 kubectl create -f "FILE_PATH"
 
-kubectl get pods
+kubectl get pods -o wide
 
 kubectl get replicaset
 
@@ -13,3 +13,9 @@ kubectl replcae -f "FILE_NAME"
 kubectl scale --replicas=6 -f "FILE_PATH"
 
 kubectl scale --replicas=6 replicaset(This is Type ) myapp-replicaset(app needed to replicated)
+
+kubectl describe pods
+
+kubectl describe replicaset
+
+kubectl get all
