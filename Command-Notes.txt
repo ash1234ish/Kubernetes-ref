@@ -6,6 +6,8 @@ kubectl get replicaset
 
 kubectl get replicationcontroller
 
+kubectl delete replicaset "NAME OF the replicaset"
+
 kubectl replcae -f "FILE_NAME"
 
 kubectl scale --replicas=6 -f "FILE_PATH"
