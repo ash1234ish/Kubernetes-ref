@@ -1,0 +1,13 @@
+kubectl create -f "FILE_PATH"
+
+kubectl get pods
+
+kubectl get replicaset
+
+kubectl get replicationcontroller
+
+kubectl replcae -f "FILE_NAME"
+
+kubectl scale --replicas=6 -f "FILE_PATH"
+
+kubectl scale --replicas=6 replicaset(This is Type ) myapp-replicaset(app needed to replicated)
