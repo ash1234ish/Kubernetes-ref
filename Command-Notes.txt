@@ -27,3 +27,7 @@ kubectl rollout history "NAME OF THE DEPLOYMENT"
 kubectl rollout undo "NAME OF THE DEPLOYMENT"--- to reollout an depployments
 
 kubectl run nginx --image nginx  -- creates a deployment rather than a POD
+
+kubectl get pod <pod-name> -o yaml > pod-definition.yaml -- To get the pod definition file
+
+kubectl edit pod <pod-name> command to edit pod properties.
